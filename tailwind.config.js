@@ -414,6 +414,7 @@ module.exports = {
       '11/12': '91.666667%',
       full: '100%',
       screen: '100vw',
+      '45': '45%'
     }),
     zIndex: {
       auto: 'auto',

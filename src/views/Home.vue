@@ -55,7 +55,7 @@
     </nav>-->
 
     <div class="flex justify-around items-center">
-      <div class="w-1/3">
+      <div class="hidden md:block w-1/3">
         <h1 class="text-white font-bold text-5xl p-10 tracking-wider">
           Profesionales inmobiliarios dedicados
           <span class="block">a usted</span>
