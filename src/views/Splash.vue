@@ -5,12 +5,12 @@
     <div class="bg-gray-200 relative">
       <div class="bg-img"></div>
 
-      <div class="absolute top-0 w-3/5 mt-20 l-50">
+      <div class="absolute top-0 w-3/5 mt-20 left-50">
         <h1 class="text-white lg:text-5xl font-semibold">Registro</h1>
-        <div class="my-2 border-b border-orange-500 px-10 w-1/12"></div>
+        <div class="my-2 px-10 w-1/12 border border-t b-brown"></div>
         <p class="text-lg text-white my-5">Crea una cuenta</p>
-        <div id="card" class="text-center bg-gray-200 rounded-lg border pb-5 lg:pb-10">
-          <h1 class="text-xl b-brown lg:text-4xl font-bold mt-10">Registro Satisfactorio!</h1>
+        <div id="card" class="text-center bg-white rounded-lg border pb-5 lg:pb-10">
+          <h1 class="text-xl t-brown lg:text-4xl font-bold mt-10">Registro Satisfactorio!</h1>
           <h6 class="text-sm lg:text-lg font-bold">Sus datos fuerron registrados</h6>
           <img
             class="w-1/2 mx-auto mb-10"
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-
+    <div class="alto bg-gray-200"></div>
     <footer-all></footer-all>
   </div>
 </template>
@@ -36,12 +36,15 @@ export default {};
 <style lang="scss">
 .bg-img {
   background-image: url("../assets/img/banners/banner_de_descanso-03.png");
-  height: 80vh;
+  height: 180vh;
 }
-.l-50 {
+.alto {
+  height: 60vh;
+}
+.left-50 {
   left: 20%;
 }
-.b-brown {
+.t-brown {
   color: #a08629;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-200">
-    <header class="bg-white">
+    <!-- <header class="bg-white">
       <div id="navivation">
         <div id="systemNavbar" class="hidden">Idiomas</div>
         <div id="navbar" class="flex justify-between items-center">
@@ -30,8 +30,8 @@
           </div>
         </div>
       </div>
-    </header>
-
+    </header>-->
+    <header-nav></header-nav>
     <!-- Search form start  -->
     <section id="search-form" class="m-5 bg-white rounded-lg p-5 lg:w-8/12 lg:mx-auto">
       <div class="lg:w-10/12 lg:px-10 lg:ml-10">
