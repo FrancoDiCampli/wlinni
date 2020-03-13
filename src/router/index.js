@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import Header from "../views/Header.vue";
 import Navbar from "../views/Navbar.vue";
 import Splash from "../views/Splash.vue";
+import Login from "../views/Login.vue";
 
 Vue.use(VueRouter);
 
@@ -27,6 +28,11 @@ const routes = [
     path: "/splash",
     name: "Splash",
     component: Splash
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login
   }
 ];
 
